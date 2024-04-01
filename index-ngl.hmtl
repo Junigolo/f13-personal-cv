@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <head>
+        <meta  charset="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1">
+        <title> CV-Nicolas Gomez</title>     
+    </head>
+    <body>
+        <section name="encabezado">
+            <div>
+                <h1>JUAN NICOLAS GOMEZ LOPEZ</h1>
+            </div>
+            <div>
+                <img href="./Fotos/ngl-fOTO.png">
+            </div>
+
+        </section>
+        <section name="perfilprofesional">
+            <h2>PERFIL PROFESIONAL</h2>
+            <p> Ingeniero de Sistemas, con experiencia de mas de 10 en 
+                infraestrutura  de IT.  Administracion de centros de computo
+                y telecomunicacione,  asi como de platadormas cloud de 
+                sistermas de Ofimatica. <strong>Windows, Unix, IOS, Ubiquiti</strong>
+            </p>
+
+        </section>
+        <section name="biografia">
+            <h2>BIOGRAFIA</h2>
+            <p> Colombiano con estas fechas y actividades relevantes : <br>
+                <ul>
+                    <ui>Nacimiento : 1964 </ui>
+                    <ui>Bachiller : 1984 </ui>
+                    <ui>Profesional : 1989 </ui>
+                    <ui>Matrimonio : 1991 </ui>
+                    <ui>Hijo Juan Nicolas : 1991 </ui>
+                    <ui>Hijo Miguel Angel : 1992 </ui>
+                    <ui>Primer trabajo : 1993 </ui>
+                    <ui>Emprendimiento : 1995</ui>
+                    <ui>Viudo : 2006 </ui>
+                    </ui>
+                </ul>
+                <br>
+            </p>
+        </section>
+        <section name="lugares conocidos">
+            <div>
+                <h3> CIUDADES CONOCIDAS</h3>
+                <ol>
+                    <oi>Bogota, Colombia</oi>
+                    <oi>Cartagena, Colombia</oi>
+                    <oi>Pereira, Colombia</oi>
+                    <oi>Santa Marta, Colombia</oi>
+                    <oi>Caracas, Venezuela</oi>
+                    <oi>Maracay, Venezuela</oi>
+                    <oi>Miamo, USA</oi>
+                    <oi>New York, USA</oi>
+                    <oi><strong>Estambul</strong>, Turkia</oi>
+                </ol>
+            </div>
+            <div>
+                <h3>CIUDAD CONOCIDAD FAVORITA</h3>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1WsyWF3CXrR3xNpUGZz2IFSg65KM&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+            </div>
+        </section>
+        <section name="formatocontato">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <form>
+                <label> Nomnbre : </label><input name="nombre" type="text" id="name">
+                <label> Telefono : </label><input name="telefono" type="number" id="phone">
+                <label> Direccion : </label><input name="direccion" type="text" id="address">
+                <label> Correo : </label><input name="correo" type="email" id="email">
+                <button type="button">Remitir Datos</button>
+            </form>
+
+        </section>
+
+
+
+
+
+    </body>
