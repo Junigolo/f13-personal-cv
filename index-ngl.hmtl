@@ -10,7 +10,7 @@
                 <h1>JUAN NICOLAS GOMEZ LOPEZ</h1>
             </div>
             <div>
-                <img href="./Fotos/ngl-fOTO.png">
+                <img src="./Fotos/ngl-fOTO.png" alt="Foto de NGL">
             </div>
 
         </section>
@@ -27,15 +27,16 @@
             <h2>BIOGRAFIA</h2>
             <p> Colombiano con estas fechas y actividades relevantes : <br>
                 <ul>
-                    <ui>Nacimiento : 1964 </ui>
-                    <ui>Bachiller : 1984 </ui>
-                    <ui>Profesional : 1989 </ui>
-                    <ui>Matrimonio : 1991 </ui>
-                    <ui>Hijo Juan Nicolas : 1991 </ui>
-                    <ui>Hijo Miguel Angel : 1992 </ui>
-                    <ui>Primer trabajo : 1993 </ui>
-                    <ui>Emprendimiento : 1995</ui>
-                    <ui>Viudo : 2006 </ui>
+                    <ui>Nacimiento : 1964 </ui><br>
+                    <ui>Bachiller : 1984 </ui><br>
+                    <ui>Profesional : 1989 </ui><br>
+                    <ui>Matrimonio : 1991 </ui><br>
+                    <ui>Hijo Juan Nicolas : 1991 </ui><br>
+                    <ui>Hijo Miguel Angel : 1992 </ui><br>
+                    <ui>Primer trabajo : 1993 </ui><br>
+                    <ui>Emprendimiento : 1995</ui><br>
+                    <ui>Viudo : 2006 </ui><br>
+                    <ui>Independiente : 2012</ui>
                     </ui>
                 </ul>
                 <br>
@@ -44,37 +45,81 @@
         <section name="lugares conocidos">
             <div>
                 <h3> CIUDADES CONOCIDAS</h3>
-                <ol>
-                    <oi>Bogota, Colombia</oi>
-                    <oi>Cartagena, Colombia</oi>
-                    <oi>Pereira, Colombia</oi>
-                    <oi>Santa Marta, Colombia</oi>
-                    <oi>Caracas, Venezuela</oi>
-                    <oi>Maracay, Venezuela</oi>
-                    <oi>Miamo, USA</oi>
-                    <oi>New York, USA</oi>
-                    <oi><strong>Estambul</strong>, Turkia</oi>
-                </ol>
+                <p>
+                    <ol>
+                        <oi>Bogota, Colombia</oi><br>
+                        <oi>Cartagena, Colombia</oi><br>
+                        <oi>Pereira, Colombia</oi><br>
+                        <oi>Santa Marta, Colombia</oi><br>
+                        <oi>Caracas, Venezuela</oi><br>
+                        <oi>Maracay, Venezuela</oi><br>
+                        <oi>Miami, USA</oi><br>
+                        <oi>New York, USA</oi><br>
+                        <oi><strong>Estambul</strong>, Turkia</oi><br>
+                    </ol>
+                </p>
             </div>
             <div>
                 <h3>CIUDAD CONOCIDAD FAVORITA</h3>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1WsyWF3CXrR3xNpUGZz2IFSg65KM&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
+            <div>
+                <h3>NOTICIA TURKA EN VIDEO</h3>
+                
+-                <iframe src='https://rr.sapo.pt/iframes/media.aspx?objid=122762' width='640' height='360' frameborder='0' scrolling='no'></iframe>
+
+            </div>
+
         </section>
         <section name="formatocontato">
             <h2>FORMULARIO DE CONTACTO</h2>
+            <p>Favor registre sus informacion en el siguiente <strong>formulario</strong> : </p><br>
             <form>
-                <label> Nomnbre : </label><input name="nombre" type="text" id="name">
-                <label> Telefono : </label><input name="telefono" type="number" id="phone">
-                <label> Direccion : </label><input name="direccion" type="text" id="address">
-                <label> Correo : </label><input name="correo" type="email" id="email">
-                <button type="button">Remitir Datos</button>
+                <label> Nomnbre    : </label><input name="nombre" type="text" id="name"><br>
+                <label> Telefono   : </label><input name="telefono" type="number" id="phone"><br>
+                <label> Direccion  : </label><input name="direccion" type="text" id="address"><br>
+                <label> Correo     : </label><input name="correo" type="email" id="email"><br>
+                <button type="button">Remitir Datos</button><br>
             </form>
 
         </section>
+        <section name="projectosdesarrollados">
+            <h2> PARTICIPACION EN PROYECTOS TIC</h2>
+                <ol>
+                    <oi>Red nacional de Datos Ecopetrol</oi><br>
+                    <oi>Implementacion de Enlaces de Telecomunicaciones</oi><br>
+                    <oi>Diseño e instalacion de Fibra Optica Ed. Teusaca</oi><br>
+                    <oi>Implementacion de Directorio Activo - Hilton International</oi><br>
+                    <oi>Diseño, configuracion de Office 365 varias empresas</oi><br>
+                    <oi>Administracion de sistema Windwos Virtual Machines</oi>
+                    <oi>Administracion sistemas Cloud AWS with Veen</oi>
+                </ol>
+        </section>
+        <section name="formatosoporte">
+            <h2>FORMULARIO DE SOPORTE TIC</h2>
+            <p>Favor registre sus solicitudes en el siguiente <strong>formulario</strong> : </p><br>
+            <form>
+                <label> Nomnbre    : </label><input name="nombre" type="text" id="name"><br>
+                <label> Telefono   : </label><input name="telefono" type="number" id="phone"><br>
+                <label> Correo     : </label><input name="correo" type="email" id="email"><br>
+                <label> Area     : </label>
+                    <select name="area" id="area-select">
+                      <option value=""> Elija area de soporte-</option>
+                      <option value="O365">Office 365</option>
+                      <option value="CServices">Cloud Service</option>
+                      <option value="AD">Active Directory</option>
+                      <option value="HW">Hardware - device</option>
+                      <option value="SW">Software - devices"</option>
+                      <option value="Other">Otras</option>
+                    </select>
 
-
-
-
-
+                <br>
+                <label> Descripcion  Falla: </label><textarea name="solicitud" type="text" id="pqr"></textarea><br>
+                <br>
+                <button type="button">Enviar Solicitud</button><br>
+            </form>
+            <br>
+        </section>
     </body>
+
+    <footer>Esta es la infomacion ultima de contacto y redes sociales.</footer>
